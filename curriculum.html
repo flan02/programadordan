@@ -1,8 +1,33 @@
 <!DOCTYPE html>
 <html lang="es-AR">
-<meta charset="utf-8">
 <head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
 <style type="text/css">
+@media screen and (max-width: 800px) {
+      #center{
+                           width:100%;
+ }
+	
+@media screen and (max-device-width : 480px) {
+
+        #sidebar{
+	        display:none;
+   }
+
+                #menu{
+               text-align:center;
+   }
+}
+
+@media screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape){
+       .entry, .entry-content{
+ 	      font-size:1.2em;
+	      line-height:1.5em;
+
+	}
+ }
+	
 html{
 	background-color: #222;
 	font: 20px Garamond;
