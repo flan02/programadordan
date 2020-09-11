@@ -37,11 +37,12 @@ a{
 	border: 2px solid #FFF;
 	}
 #banner{
-	
+
 	}	
 #banner_perfil{
-	width:80%;
+	width:100%;
 	box-sizing:border-box;
+	float:right;
 	
 	}	
 
@@ -55,13 +56,7 @@ a{
 	
 }
 
-.cont{
 
-	position: relative;
-	display: inline-block;
-	text-align: center;
-	box-sizing:border-box;
-}
 
 .subtitulo{
 	text-align: center;
@@ -69,10 +64,10 @@ a{
 
 .main .impar{
 
-       margin-bottom:5%; 
+       margin-bottom:-1%; 
        background-color: #009;
        color: #FFF;
-        padding-bottom: -5%;        
+       padding-bottom: -5%;        
 }
 
 .main .impar:hover{
@@ -102,7 +97,11 @@ ul.lista{
 .contain{
 	  width:100%;
 	  margin:auto;
-	  margin-top:-12%;
+	  margin-top:-3%;
+	position: relative;
+	display: inline-block;
+	
+	box-sizing:border-box;
 	}	
 </style>
 <title></title>
@@ -111,10 +110,10 @@ ul.lista{
 <div id="center">	
 <header>
 <div id="foto_perfil">
-	<img src="perfil.jpg" alt="Foto de perfil" width="100%">
+	<img src="perfil.jpg" alt="Foto de perfil" width="100%" id="yo">
 </div>	
 <div id="banner_perfil">
-	<img src="banner.png" alt="Banner del perfil" width="130%" id="banner">
+	<img src="banner.png" alt="Banner del perfil" width="100%" id="banner">
 	<h1 id="cv"></h1>
 </div>
 
@@ -148,8 +147,8 @@ ul.lista{
 <article class="impar">	
 <h2 class="subtitulo">Tecnologias de programacion. Front end / Back end</h2>
 <ul class="lista">
-	<li>HTML5 --> HTML, CSS3, JAVASCRIPT.</li>
-	<li>Responsive Web Design</li>
+	<li>HTML5, HTML, CSS3, JavaScript</li>
+	<li>Responsive Web Design, Flex, Grid</li>
 	<li>Diseño de graficos personalizados con lenguaje de vectores escalables "svg" & "canvas"</li>	
 	<li>PHP7+. Frameworks Laravel y Symfony</li>
 	<li>Lenguaje de consultas SQL</li>	
